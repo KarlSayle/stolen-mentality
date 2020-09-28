@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://bases/Room.tscn" type="PackedScene" id=1]
+[ext_resource path="res://rooms/DownstairsHall.tscn" type="PackedScene" id=2]
+
+[node name="Entrance" instance=ExtResource( 1 )]
+room_name = "Main entrance"
+room_texts = [ "Welcome to Stolen Mentality.", "This is line 2.", "And this is line 3." ]
+north_room = ExtResource( 2 )
+

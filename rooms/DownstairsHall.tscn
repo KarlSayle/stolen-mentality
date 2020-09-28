@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://bases/Room.tscn" type="PackedScene" id=1]
+
+[node name="DownstairsHall" instance=ExtResource( 1 )]
+room_name = "Downstairs hall"
+room_texts = [ "This is the main hall.", "In front of you stands a large clock." ]
+
